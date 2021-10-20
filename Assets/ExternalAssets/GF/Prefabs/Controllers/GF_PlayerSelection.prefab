@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1789540299725262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4835955246255414}
+  - component: {fileID: 114121503800367960}
+  m_Layer: 0
+  m_Name: GF_PlayerSelection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4835955246255414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789540299725262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114121503800367960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789540299725262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50615eb0321152142ac32e5775d137ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviousScene: 4
+  NextScene: 2
+  Selection_UI:
+    LoadingScreen: {fileID: 0}
+    FillBar: {fileID: 0}
+    Speed_Bar: {fileID: 0}
+    Handling_Bar: {fileID: 0}
+    Acceleration_Bar: {fileID: 0}
+    InfoText: {fileID: 0}
+    PlayBtn: {fileID: 0}
+    NextBtn: {fileID: 0}
+    PrevBtn: {fileID: 0}
+  Players:
+  - Name: Player 1
+    Info: Player 1
+    PlayerObject: {fileID: 0}
+    Speed: 42
+    Handling: 9
+    Acceleration: 31
+    Locked: 0
+    LevelRequired: 0
+  - Name: Player 2
+    Info: Player 2
+    PlayerObject: {fileID: 0}
+    Speed: 12
+    Handling: 4
+    Acceleration: 8
+    Locked: 1
+    LevelRequired: 2
+  - Name: Player 3
+    Info: Player 3
+    PlayerObject: {fileID: 0}
+    Speed: 66
+    Handling: 42
+    Acceleration: 55
+    Locked: 1
+    LevelRequired: 4
+  SequenceID: 3
+  LoadingSequence: 0
+  LoadingSequenceID: 0
